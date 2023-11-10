@@ -10,7 +10,7 @@ const parola2 = prompt("Inserisci la seconda parola:");
 if (parola1.length > parola2.length) {
     console.log(parola2, 'Numero di lettere:', parola2.length);
     console.log(parola1, 'Numero di lettere:', parola1.length);
-} else if (word1.length < word2.length) {
+} else if (parola1.length < parola2.length) {
     console.log(parola1, 'Numero di lettere:', parola1.length);
     console.log(parola2, 'Numero di lettere:', parola2.length);
 } else {
