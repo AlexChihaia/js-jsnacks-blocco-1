@@ -14,6 +14,7 @@ for (let i = 0; i < 10; i++) {
     } else {
         somma = somma + num;
     }
+    console.log('Il numero che hai scelto è :' + num);
 }
 
 
