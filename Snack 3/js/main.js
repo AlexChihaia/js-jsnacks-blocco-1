@@ -6,7 +6,7 @@
 let somma = 0;
 
 for (let i = 0; i < 10; i++) {
-    const num = Number(prompt((i + 1), 'Inserisci un numero:'));
+    const num = Number(prompt('Inserisci un numero:'));
 
     if (isNaN(num)) {
         alert('Non è un numero , inserisci nuovamente');
