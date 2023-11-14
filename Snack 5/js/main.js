@@ -9,4 +9,6 @@ for (let i = 0; i < N; i++) {
         myArray.push(Math.floor(Math.random() * 100) + 1);
     }
     console.log(myArray);
+    alert('Numeri della mia lista:' + myArray);
 }
+
