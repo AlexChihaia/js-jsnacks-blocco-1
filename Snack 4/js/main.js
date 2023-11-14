@@ -9,13 +9,14 @@ let somma = 0;
 
 while (somma < 50) {
 
-    let numero = Number(prompt('Enter a number: '));
+	let numero = Number(prompt('Enter a number: '));
 
 
-    array.push(numero - 1);
+	array.push(numero - 1);
 
 
-    somma += numero;
+	somma += numero;
+
 
 }
 
